@@ -164,7 +164,7 @@ export default {
 .fam .code { font-size: 26rpx; color: var(--brand); padding: 6rpx 16rpx; border-radius: 999rpx; box-shadow: inset 0 0 0 2rpx var(--brand); }
 .members { display: flex; flex-wrap: wrap; gap: 16rpx; margin-top: 20rpx; }
 .mem { display: flex; align-items: center; gap: 10rpx; background: var(--bg); border-radius: 999rpx; padding: 8rpx 20rpx 8rpx 8rpx; }
-.m-ava { width: 48rpx; height: 48rpx; border-radius: 50%; background: linear-gradient(135deg,#4b3fe3,#8b5cf6); color: #fff; font-size: 24rpx; display: flex; align-items: center; justify-content: center; }
+.m-ava { width: 48rpx; height: 48rpx; border-radius: 50%; color: var(--text); font-size: 24rpx; display: flex; align-items: center; justify-content: center; }
 .m-name { font-size: 24rpx; color: var(--text); }
 .fam-tip { font-size: 22rpx; color: var(--text-2); margin-top: 16rpx; display: block; }
 </style>

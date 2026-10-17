@@ -374,8 +374,8 @@ export default {
 .acc-val { font-size: 28rpx; font-weight: 600; flex: 1; min-width: 0; word-break: break-all; }
 .acc-val.sig { font-weight: 400; font-size: 24rpx; color: var(--text-2); }
 .edit-link { font-size: 28rpx; color: var(--brand); flex: none; }
-/* 头像小圆底（emoji 直接展示在渐变圆里，与「我的」页资料头同款） */
-.ava-dot { display: inline-flex; width: 72rpx; height: 72rpx; border-radius: 50%; background: linear-gradient(135deg,#4b3fe3,#8b5cf6); align-items: center; justify-content: center; font-size: 36rpx; font-weight: 400; }
+/* 头像展示位（emoji 直接展示，不加底色圆） */
+.ava-dot { display: inline-flex; width: 72rpx; height: 72rpx; border-radius: 50%; align-items: center; justify-content: center; font-size: 36rpx; font-weight: 400; }
 
 /* 头像 emoji 候选：4列 × 两行半（对齐全局 emoji 网格规范），点选即保存 */
 .emoji-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10rpx; max-height: 200rpx; overflow-y: auto; align-content: start; margin-bottom: 12rpx; }

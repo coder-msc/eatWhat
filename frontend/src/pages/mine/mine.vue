@@ -240,8 +240,8 @@ export default {
 
 /* 资料头 */
 .pro { display:flex; align-items:center; gap:20rpx; background:var(--card); border:1rpx solid var(--border); border-radius:var(--radius-lg,16rpx); padding:26rpx 24rpx; }
-.ava { width:92rpx; height:92rpx; border-radius:50%; background:linear-gradient(135deg,#4b3fe3,#8b5cf6); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-.ava-em { font-size:40rpx; color:#fff; font-weight:600; }
+.ava { width:92rpx; height:92rpx; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.ava-em { font-size:40rpx; color:var(--text); font-weight:600; }
 .pro-c { flex:1; min-width:0; display:flex; flex-direction:column; gap:4rpx; }
 .pro-nm { display:flex; align-items:center; gap:10rpx; }
 .pname { font-size:34rpx; font-weight:700; }
